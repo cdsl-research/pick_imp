@@ -2,7 +2,7 @@
 
 ## 構成
 ```
-~/hyouka/information/
+~/pick_imp/
 ├── data
 ├── anser/
 │   ├── answer_<日時>.txt
