@@ -1,0 +1,28 @@
+# 命令/依頼 抽出レポート (最小版)  (20251103_050543 JST)
+data path: /home/arita/pick_imp/data
+model: MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+total_extracted_sentences: 4
+labels: ['命令・依頼', '説明', '質問', '状況']
+threshold: 0.5
+chunk_mode: none
+
+================================================================================
+FILE: /home/arita/pick_imp/data
+EXTRACTED: 4
+--------------------------------------------------------------------------------
+[line    2] あなたの作成した phpMyAdminのvalues.yaml を改めて確認してください
+  -> label=命令・依頼  score=0.511
+[line    3] 70行目から90行目のimageの箇所をよく確認してください
+  -> label=命令・依頼  score=0.54
+[line    4] 626行目から759行目のmetricsの箇所をよく確認してください
+  -> label=命令・依頼(fallback)  score=0.6
+[line    5] ファイルのMariaDBのvalues.yamlがないので，ファイルを作成してください
+  -> label=命令・依頼(fallback)  score=0.6
+--------------------------------------------------------------------------------
+【Original Text】
+課題 2-1 についての相談ですね
+あなたの作成した phpMyAdminのvalues.yaml を改めて確認してください．
+70行目から90行目のimageの箇所をよく確認してください
+626行目から759行目のmetricsの箇所をよく確認してください
+
+ファイルのMariaDBのvalues.yamlがないので，ファイルを作成してください．
