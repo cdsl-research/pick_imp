@@ -21,6 +21,18 @@
 ### 環境の構築
 - Pythonの仮想環境とtransformers，torchライブラリを導入します．
 
+git cloneで持って来る
+```
+arita@sre000h:~$ git clone git@github.com:cdsl-research/pick_imp.git
+Cloning into 'pick_imp'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 10 (delta 2), reused 7 (delta 1), pack-reused 0 (from 0)
+Receiving objects: 100% (10/10), 9.16 KiB | 9.16 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+```
+
 仮想環境の作成
 ```
 arita@sre000h:~/pick_imp$ python3 -m venv venv
