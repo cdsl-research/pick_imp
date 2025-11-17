@@ -5,8 +5,8 @@
 ~/pick_imp/
 ├── data
 ├── anser/
-│   ├── answer_<日時>.txt
-├── pick_imp.py
+│   └── answer_<日時>.txt
+└── pick_imp.py
 ```
 
 ## 実行する環境
@@ -189,6 +189,7 @@ Successfully installed MarkupSafe-3.0.3 certifi-2025.10.5 charset_normalizer-3.4
 
 「命令・依頼」とみなすスコア閾値（デフォルト：0.5）
 `--threshold`
+
 閾値を超えた段落を全て出力（none / paragraph）
 `--chunk`
 
