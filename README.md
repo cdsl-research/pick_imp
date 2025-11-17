@@ -31,6 +31,7 @@ remote: Compressing objects: 100% (9/9), done.
 remote: Total 10 (delta 2), reused 7 (delta 1), pack-reused 0 (from 0)
 Receiving objects: 100% (10/10), 9.16 KiB | 9.16 MiB/s, done.
 Resolving deltas: 100% (2/2), done.
+arita@sre000h:~$ 
 ```
 
 仮想環境の作成
